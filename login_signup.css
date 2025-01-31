@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    margin: 0;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: skyblue;
+}
+
+.main_login,.main_signup{
+    font-family: cursive;
+    padding: 50px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.main_login{
+    margin: 100px;
+    height: 400px;
+    width: 450px;
+}
+
+.main_signup{
+    margin: 90px;
+    height: 550px;
+    width: 450px;
+}
+
+#user_name, #password,#name, #mobile,#re_pass{
+    width: 400px;
+    margin: 15px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#Signup,#Login{
+    margin: 25px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+}
+
+
+#Signup:hover,
+#Login:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+hr{
+    margin: 10px;
+}
+
+.main_signup h1{
+    margin-top: 0px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.main_login h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 20px;
+}
+#admin, #user{
+    
+    transition: 2s;
+
+}
